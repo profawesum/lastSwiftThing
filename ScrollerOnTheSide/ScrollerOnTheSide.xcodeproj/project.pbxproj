@@ -1,0 +1,655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC739E0B236F65F900DCF683 /* menuMusic.wav in Resources */ = {isa = PBXBuildFile; fileRef = DC739E06236F65F800DCF683 /* menuMusic.wav */; };
+		DC739E0C236F65F900DCF683 /* jumpSfx.wav in Resources */ = {isa = PBXBuildFile; fileRef = DC739E07236F65F900DCF683 /* jumpSfx.wav */; };
+		DC739E0D236F65F900DCF683 /* levelOneTrack.wav in Resources */ = {isa = PBXBuildFile; fileRef = DC739E08236F65F900DCF683 /* levelOneTrack.wav */; };
+		DC739E0E236F65F900DCF683 /* LevelTwoTrack.wav in Resources */ = {isa = PBXBuildFile; fileRef = DC739E09236F65F900DCF683 /* LevelTwoTrack.wav */; };
+		DC739E0F236F65F900DCF683 /* PointsBonus.wav in Resources */ = {isa = PBXBuildFile; fileRef = DC739E0A236F65F900DCF683 /* PointsBonus.wav */; };
+		DC862AE5235D097200553775 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC862AE4235D097200553775 /* AppDelegate.swift */; };
+		DC862AE7235D097200553775 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DC862AE6235D097200553775 /* GameScene.sks */; };
+		DC862AE9235D097200553775 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = DC862AE8235D097200553775 /* Actions.sks */; };
+		DC862AEB235D097200553775 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC862AEA235D097200553775 /* GameScene.swift */; };
+		DC862AED235D097200553775 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC862AEC235D097200553775 /* GameViewController.swift */; };
+		DC862AF0235D097200553775 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC862AEE235D097200553775 /* Main.storyboard */; };
+		DC862AF2235D097300553775 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC862AF1235D097300553775 /* Assets.xcassets */; };
+		DC862AF5235D097300553775 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC862AF3235D097300553775 /* LaunchScreen.storyboard */; };
+		DC862B00235D097300553775 /* ScrollerOnTheSideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC862AFF235D097300553775 /* ScrollerOnTheSideTests.swift */; };
+		DC862B0B235D097300553775 /* ScrollerOnTheSideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC862B0A235D097300553775 /* ScrollerOnTheSideUITests.swift */; };
+		DC862B19235D0C4300553775 /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC862B18235D0C4300553775 /* MainMenu.swift */; };
+		DC862B1B235D0C5F00553775 /* GameOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC862B1A235D0C5F00553775 /* GameOver.swift */; };
+		DC862B1D235D0C7200553775 /* LevelSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC862B1C235D0C7200553775 /* LevelSelect.swift */; };
+		DC862B1F235D114A00553775 /* LevelOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC862B1E235D114A00553775 /* LevelOne.swift */; };
+		DC88D052235E51930063FA66 /* CameraClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC88D051235E51930063FA66 /* CameraClass.swift */; };
+		DC88D054235E606C0063FA66 /* LevelTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC88D053235E606C0063FA66 /* LevelTwo.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC862AFC235D097300553775 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC862AD9235D097200553775 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC862AE0235D097200553775;
+			remoteInfo = ScrollerOnTheSide;
+		};
+		DC862B07235D097300553775 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC862AD9235D097200553775 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC862AE0235D097200553775;
+			remoteInfo = ScrollerOnTheSide;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC739E06236F65F800DCF683 /* menuMusic.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = menuMusic.wav; path = ScrollerOnTheSide/menuMusic.wav; sourceTree = SOURCE_ROOT; };
+		DC739E07236F65F900DCF683 /* jumpSfx.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = jumpSfx.wav; path = ScrollerOnTheSide/jumpSfx.wav; sourceTree = SOURCE_ROOT; };
+		DC739E08236F65F900DCF683 /* levelOneTrack.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = levelOneTrack.wav; path = ScrollerOnTheSide/levelOneTrack.wav; sourceTree = SOURCE_ROOT; };
+		DC739E09236F65F900DCF683 /* LevelTwoTrack.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = LevelTwoTrack.wav; path = ScrollerOnTheSide/LevelTwoTrack.wav; sourceTree = SOURCE_ROOT; };
+		DC739E0A236F65F900DCF683 /* PointsBonus.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = PointsBonus.wav; path = ScrollerOnTheSide/PointsBonus.wav; sourceTree = SOURCE_ROOT; };
+		DC862AE1235D097200553775 /* ScrollerOnTheSide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollerOnTheSide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC862AE4235D097200553775 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC862AE6235D097200553775 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		DC862AE8235D097200553775 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		DC862AEA235D097200553775 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		DC862AEC235D097200553775 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		DC862AEF235D097200553775 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC862AF1235D097300553775 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC862AF4235D097300553775 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC862AF6235D097300553775 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC862AFB235D097300553775 /* ScrollerOnTheSideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollerOnTheSideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC862AFF235D097300553775 /* ScrollerOnTheSideTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollerOnTheSideTests.swift; sourceTree = "<group>"; };
+		DC862B01235D097300553775 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC862B06235D097300553775 /* ScrollerOnTheSideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollerOnTheSideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC862B0A235D097300553775 /* ScrollerOnTheSideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollerOnTheSideUITests.swift; sourceTree = "<group>"; };
+		DC862B0C235D097300553775 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC862B18235D0C4300553775 /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
+		DC862B1A235D0C5F00553775 /* GameOver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOver.swift; sourceTree = "<group>"; };
+		DC862B1C235D0C7200553775 /* LevelSelect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelSelect.swift; sourceTree = "<group>"; };
+		DC862B1E235D114A00553775 /* LevelOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelOne.swift; sourceTree = "<group>"; };
+		DC88D051235E51930063FA66 /* CameraClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraClass.swift; sourceTree = "<group>"; };
+		DC88D053235E606C0063FA66 /* LevelTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelTwo.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC862ADE235D097200553775 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC862AF8235D097300553775 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC862B03235D097300553775 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC5118FB236A28AD000DC69C /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				DC739E07236F65F900DCF683 /* jumpSfx.wav */,
+				DC739E08236F65F900DCF683 /* levelOneTrack.wav */,
+				DC739E09236F65F900DCF683 /* LevelTwoTrack.wav */,
+				DC739E06236F65F800DCF683 /* menuMusic.wav */,
+				DC739E0A236F65F900DCF683 /* PointsBonus.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		DC862AD8235D097200553775 = {
+			isa = PBXGroup;
+			children = (
+				DC862AE3235D097200553775 /* ScrollerOnTheSide */,
+				DC862AFE235D097300553775 /* ScrollerOnTheSideTests */,
+				DC862B09235D097300553775 /* ScrollerOnTheSideUITests */,
+				DC862AE2235D097200553775 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC862AE2235D097200553775 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC862AE1235D097200553775 /* ScrollerOnTheSide.app */,
+				DC862AFB235D097300553775 /* ScrollerOnTheSideTests.xctest */,
+				DC862B06235D097300553775 /* ScrollerOnTheSideUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC862AE3235D097200553775 /* ScrollerOnTheSide */ = {
+			isa = PBXGroup;
+			children = (
+				DC5118FB236A28AD000DC69C /* Sounds */,
+				DC862AE4235D097200553775 /* AppDelegate.swift */,
+				DC862AE6235D097200553775 /* GameScene.sks */,
+				DC862AE8235D097200553775 /* Actions.sks */,
+				DC862AEA235D097200553775 /* GameScene.swift */,
+				DC862AEC235D097200553775 /* GameViewController.swift */,
+				DC862AEE235D097200553775 /* Main.storyboard */,
+				DC862AF1235D097300553775 /* Assets.xcassets */,
+				DC88D053235E606C0063FA66 /* LevelTwo.swift */,
+				DC862AF3235D097300553775 /* LaunchScreen.storyboard */,
+				DC862AF6235D097300553775 /* Info.plist */,
+				DC862B18235D0C4300553775 /* MainMenu.swift */,
+				DC862B1A235D0C5F00553775 /* GameOver.swift */,
+				DC862B1C235D0C7200553775 /* LevelSelect.swift */,
+				DC862B1E235D114A00553775 /* LevelOne.swift */,
+				DC88D051235E51930063FA66 /* CameraClass.swift */,
+			);
+			path = ScrollerOnTheSide;
+			sourceTree = "<group>";
+		};
+		DC862AFE235D097300553775 /* ScrollerOnTheSideTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC862AFF235D097300553775 /* ScrollerOnTheSideTests.swift */,
+				DC862B01235D097300553775 /* Info.plist */,
+			);
+			path = ScrollerOnTheSideTests;
+			sourceTree = "<group>";
+		};
+		DC862B09235D097300553775 /* ScrollerOnTheSideUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC862B0A235D097300553775 /* ScrollerOnTheSideUITests.swift */,
+				DC862B0C235D097300553775 /* Info.plist */,
+			);
+			path = ScrollerOnTheSideUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC862AE0235D097200553775 /* ScrollerOnTheSide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC862B0F235D097300553775 /* Build configuration list for PBXNativeTarget "ScrollerOnTheSide" */;
+			buildPhases = (
+				DC862ADD235D097200553775 /* Sources */,
+				DC862ADE235D097200553775 /* Frameworks */,
+				DC862ADF235D097200553775 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScrollerOnTheSide;
+			productName = ScrollerOnTheSide;
+			productReference = DC862AE1235D097200553775 /* ScrollerOnTheSide.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC862AFA235D097300553775 /* ScrollerOnTheSideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC862B12235D097300553775 /* Build configuration list for PBXNativeTarget "ScrollerOnTheSideTests" */;
+			buildPhases = (
+				DC862AF7235D097300553775 /* Sources */,
+				DC862AF8235D097300553775 /* Frameworks */,
+				DC862AF9235D097300553775 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC862AFD235D097300553775 /* PBXTargetDependency */,
+			);
+			name = ScrollerOnTheSideTests;
+			productName = ScrollerOnTheSideTests;
+			productReference = DC862AFB235D097300553775 /* ScrollerOnTheSideTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC862B05235D097300553775 /* ScrollerOnTheSideUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC862B15235D097300553775 /* Build configuration list for PBXNativeTarget "ScrollerOnTheSideUITests" */;
+			buildPhases = (
+				DC862B02235D097300553775 /* Sources */,
+				DC862B03235D097300553775 /* Frameworks */,
+				DC862B04235D097300553775 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC862B08235D097300553775 /* PBXTargetDependency */,
+			);
+			name = ScrollerOnTheSideUITests;
+			productName = ScrollerOnTheSideUITests;
+			productReference = DC862B06235D097300553775 /* ScrollerOnTheSideUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC862AD9235D097200553775 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Harrison Orsbourne";
+				TargetAttributes = {
+					DC862AE0235D097200553775 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					DC862AFA235D097300553775 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = DC862AE0235D097200553775;
+					};
+					DC862B05235D097300553775 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = DC862AE0235D097200553775;
+					};
+				};
+			};
+			buildConfigurationList = DC862ADC235D097200553775 /* Build configuration list for PBXProject "ScrollerOnTheSide" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC862AD8235D097200553775;
+			productRefGroup = DC862AE2235D097200553775 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC862AE0235D097200553775 /* ScrollerOnTheSide */,
+				DC862AFA235D097300553775 /* ScrollerOnTheSideTests */,
+				DC862B05235D097300553775 /* ScrollerOnTheSideUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC862ADF235D097200553775 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC862AF0235D097200553775 /* Main.storyboard in Resources */,
+				DC739E0F236F65F900DCF683 /* PointsBonus.wav in Resources */,
+				DC739E0B236F65F900DCF683 /* menuMusic.wav in Resources */,
+				DC862AE7235D097200553775 /* GameScene.sks in Resources */,
+				DC739E0C236F65F900DCF683 /* jumpSfx.wav in Resources */,
+				DC739E0D236F65F900DCF683 /* levelOneTrack.wav in Resources */,
+				DC862AF2235D097300553775 /* Assets.xcassets in Resources */,
+				DC862AF5235D097300553775 /* LaunchScreen.storyboard in Resources */,
+				DC739E0E236F65F900DCF683 /* LevelTwoTrack.wav in Resources */,
+				DC862AE9235D097200553775 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC862AF9235D097300553775 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC862B04235D097300553775 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC862ADD235D097200553775 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC862B1D235D0C7200553775 /* LevelSelect.swift in Sources */,
+				DC862AEB235D097200553775 /* GameScene.swift in Sources */,
+				DC862AED235D097200553775 /* GameViewController.swift in Sources */,
+				DC88D052235E51930063FA66 /* CameraClass.swift in Sources */,
+				DC862B1F235D114A00553775 /* LevelOne.swift in Sources */,
+				DC88D054235E606C0063FA66 /* LevelTwo.swift in Sources */,
+				DC862AE5235D097200553775 /* AppDelegate.swift in Sources */,
+				DC862B1B235D0C5F00553775 /* GameOver.swift in Sources */,
+				DC862B19235D0C4300553775 /* MainMenu.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC862AF7235D097300553775 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC862B00235D097300553775 /* ScrollerOnTheSideTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC862B02235D097300553775 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC862B0B235D097300553775 /* ScrollerOnTheSideUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC862AFD235D097300553775 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC862AE0235D097200553775 /* ScrollerOnTheSide */;
+			targetProxy = DC862AFC235D097300553775 /* PBXContainerItemProxy */;
+		};
+		DC862B08235D097300553775 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC862AE0235D097200553775 /* ScrollerOnTheSide */;
+			targetProxy = DC862B07235D097300553775 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC862AEE235D097200553775 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC862AEF235D097200553775 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC862AF3235D097300553775 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC862AF4235D097300553775 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC862B0D235D097300553775 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC862B0E235D097300553775 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC862B10235D097300553775 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87XKF486C7;
+				INFOPLIST_FILE = ScrollerOnTheSide/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Harry.ScrollerOnTheSide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC862B11235D097300553775 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87XKF486C7;
+				INFOPLIST_FILE = ScrollerOnTheSide/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Harry.ScrollerOnTheSide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DC862B13235D097300553775 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87XKF486C7;
+				INFOPLIST_FILE = ScrollerOnTheSideTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Harry.ScrollerOnTheSideTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrollerOnTheSide.app/ScrollerOnTheSide";
+			};
+			name = Debug;
+		};
+		DC862B14235D097300553775 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87XKF486C7;
+				INFOPLIST_FILE = ScrollerOnTheSideTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Harry.ScrollerOnTheSideTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrollerOnTheSide.app/ScrollerOnTheSide";
+			};
+			name = Release;
+		};
+		DC862B16235D097300553775 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87XKF486C7;
+				INFOPLIST_FILE = ScrollerOnTheSideUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Harry.ScrollerOnTheSideUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ScrollerOnTheSide;
+			};
+			name = Debug;
+		};
+		DC862B17235D097300553775 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87XKF486C7;
+				INFOPLIST_FILE = ScrollerOnTheSideUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Harry.ScrollerOnTheSideUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ScrollerOnTheSide;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC862ADC235D097200553775 /* Build configuration list for PBXProject "ScrollerOnTheSide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC862B0D235D097300553775 /* Debug */,
+				DC862B0E235D097300553775 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC862B0F235D097300553775 /* Build configuration list for PBXNativeTarget "ScrollerOnTheSide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC862B10235D097300553775 /* Debug */,
+				DC862B11235D097300553775 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC862B12235D097300553775 /* Build configuration list for PBXNativeTarget "ScrollerOnTheSideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC862B13235D097300553775 /* Debug */,
+				DC862B14235D097300553775 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC862B15235D097300553775 /* Build configuration list for PBXNativeTarget "ScrollerOnTheSideUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC862B16235D097300553775 /* Debug */,
+				DC862B17235D097300553775 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC862AD9235D097200553775 /* Project object */;
+}
